@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script >
+</script>
+
+<body>
+    <div id="productos-container"></div>
+</body>
+
+<style>
+  body{
+    width: ;
+  }
+</style>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+      fetch('data.json')
+        .then(response => response.json())
+
+        .then(data => {
+          const productosContainer = document.getElementById('productos-container');
+          const productosHTML = data.map(producto => `
+            <div class="producto">
+              <h1>${producto.name}</h1>
+              <img src="${producto.img}" width="200" alt="${producto.name}">
+              <h3>${producto.description}</h3>
+              <p>Precio: $${producto.price}</p>
+            </div>
+          `).join('');
+          productosContainer.innerHTML = productosHTML;
+        })
+        .catch(error => console.error('Error cargando productos:', error));
+    });
+  </script>
+
+</html>

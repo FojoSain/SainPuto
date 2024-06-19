@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Marihuana 1gr",
+        "img": "https://www.stonerandco.com/wp-content/uploads/2021/09/Mule-Fuel-Garden-600x600.jpeg",
+        "description": "Marihuana de 1gr la mejor",
+        "price": "2,200"
+    },
+    {
+        "id": 2,
+        "name": "Marihuana 2gr",
+        "img": "https://bucket.growdiaries.com/static/report/photo/124233/f352891aca4f6654ebb62777800b743c_450.jpg",
+        "description": "Marihuana de 2gr con hongos",
+        "price": "6,200"
+    },
+    {
+        "id": 3,
+        "name": "Marihuana 5gr",
+        "img": "https://th.bing.com/th/id/R.28aed69ea2ab9eee915973cd9ceab1a1?rik=sL915wf3t6awdw&riu=http%3a%2f%2fwww.holymolyseeds.com%2fgallery%2fl%2flemon-kush%2flemon-4.jpg&ehk=QttJbroHQjcUFODGg%2fcTLScE6aCnToGIBubAQgUOL44%3d&risl=&pid=ImgRaw&r=0",
+        "description": "Marihuana de 5gr vieja",
+        "price": "6,200"
+    },
+    {
+        "id": 4,
+        "name": "Marihuana 10gr",
+        "img": "https://www.saluteo.info/wp-content/uploads/2022/01/64457-430-fleur_cbd_sante.jpg",
+        "description": "Marihuana de 10gr KIT SEMANAL",
+        "price": "12,600"
+    },
+    {
+        "id": 5,
+        "name": "Marihuana 20gr",
+        "img": "https://annunakigenetics.com/wp-content/uploads/2017/12/hs5b.jpg",
+        "description": "Marihuana de 20gr para reventa",
+        "price": "20,400"
+    },
+    {
+        "id": 6,
+        "name": "Marihuana 50gr",
+        "img": "https://fernvalleyfarms.com/wp-content/uploads/2023/03/bubba-kush-fresh3.webp",
+        "description": "Marihuana por mayor buen precio",
+        "price": "30,400"
+    }
+]
